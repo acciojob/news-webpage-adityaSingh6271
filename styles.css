@@ -26,7 +26,7 @@ h2 {
 .container {
     margin: 10px;
     display: flex;
-    justify-content: center;
+	 justify-content: center;
     flex-wrap: wrap; /* Allow flex items to wrap to the next line if space is insufficient */
 }
 
@@ -35,6 +35,7 @@ h2 {
 .Pictorial-news-section {
     margin: 10px;
     border-radius: 10px;
+	font-size:small;
 	background-color:white;
     padding: 10px; /* Add padding to create space inside the boxes */
     display: flex;
@@ -44,8 +45,9 @@ h2 {
 }
 
 .main-article {
-    height: 250px;
-	width:350px;
+   padding:20px;
+    height: 170px;
+	width:250px;
     text-align: center;
     word-wrap: break-word; /* Allow long words to be broken and wrap within the box */
     overflow: hidden; /* Hide any content that overflows the box */
